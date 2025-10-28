@@ -3,3 +3,4 @@ python-dotenv
 google-generativeai
 requests
 psutil
+streamlit
