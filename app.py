@@ -40,7 +40,7 @@ if 'inventory_lookup' not in st.session_state:
 
 # Initialize Gemini model with lazy loading
 if 'model' not in st.session_state:
-    st.session_state.model = genai.GenerativeModel("gemini-2.5-pro")
+    st.session_state.model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Use session state for better memory management
 inventory_lookup = st.session_state.inventory_lookup
